@@ -1,0 +1,6 @@
+uploads/*
+!uploads/.gitkeep
+includes/config.local.php
+.DS_Store
+*.log
+.env

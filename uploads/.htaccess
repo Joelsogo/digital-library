@@ -1,0 +1,6 @@
+# Deny direct access to uploaded files by default.
+# Download is handled by download.php with auth checks.
+Options -Indexes
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps)$">
+    Deny from all
+</FilesMatch>
